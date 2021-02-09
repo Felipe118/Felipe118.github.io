@@ -6,12 +6,13 @@
 }
 /*Variaveis*/
 :root{
-    --main-color:#54B689;
+    --main-color:#57aa84;
     --main-text-color:#FFF;
     --border-color:#999;
     --bio-bg-color:#1E2A3A;
     --bio-border-color:#293544;
-    --about-bg-color:#111821;
+    --about-bg-color:#1b2738;
+    /*#111821  cor original - --about-bg-color*/
 }
 
 .highlight{
