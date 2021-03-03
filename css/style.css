@@ -57,7 +57,7 @@
 }
 #social-container{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     list-style: none;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 25px;
