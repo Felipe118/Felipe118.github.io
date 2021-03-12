@@ -6,12 +6,12 @@
 }
 /*Variaveis*/
 :root{
-    --main-color:#57aa84;
+    --main-color:#79b3d4;
     --main-text-color:#FFF;
     --border-color:#999;
-    --bio-bg-color:#1E2A3A;
-    --bio-border-color:#293544;
-    --about-bg-color:#1b2738;
+    --bio-bg-color:#326663;
+    --bio-border-color:#999;
+    --about-bg-color:#326663;
     /*#111821  cor original - --about-bg-color*/
 }
 
@@ -91,6 +91,21 @@
     color: var(--main-color);
     font-size: 20px;
     margin-right: 20px;
+    max-width: 20px;
+}
+#phone ion-icon,
+#phone a{
+    flex: 1 1 0;
+}
+#phone a {
+    color: var(--main-text-color) ;
+    text-decoration: none;
+}
+#phone ion-icon{
+    color: rgb(67, 150, 67);
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
     max-width: 20px;
 }
 /*About container*/
