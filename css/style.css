@@ -175,7 +175,7 @@ font-size: 32px;
 
 }
 .skills-box i {
-    font-size: 45px;
+    font-size: 55px;
     margin-right: 10px;
 }
 /*Mobile responsive*/
@@ -216,6 +216,6 @@ font-size: 32px;
     text-align: left;
 }
 .skills-box i{
-    font-size: 60px;
+    font-size: 65px;
 }
 }
