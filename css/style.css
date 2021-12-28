@@ -178,6 +178,11 @@ font-size: 32px;
     font-size: 55px;
     margin-right: 10px;
 }
+.correio{
+    text-decoration: none;
+    color: #073267;
+    font-weight: bold;
+}
 /*Mobile responsive*/
 @media(max-width:450px){
 #container{
@@ -218,4 +223,5 @@ font-size: 32px;
 .skills-box i{
     font-size: 65px;
 }
+
 }
