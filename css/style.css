@@ -122,6 +122,37 @@
     max-width: 75%;
     margin-bottom: 10px;
 }
+.btns{
+    display: flex;
+}
+#btn-curriculo{
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+    -webkit-transition: .5s;
+    margin:25px 0;
+    padding: 12px 10px;
+    width: 150px;
+    text-align: center;
+    display: flex; 
+    margin-left: 2em;
+}
+#btn-curriculo ion-icon,
+#btn-curriculo span{
+    flex: 1 1 0;
+}
+#btn-curriculo ion-icon{
+    font-size: 20px;
+    max-width: 20px;
+}
+#btn-curriculo:hover{
+    background-color: transparent;
+}
 #btn-projetos{
     font-weight: bold;
     font-size: 16px;
@@ -183,6 +214,50 @@ font-size: 32px;
     color: #073267;
     font-weight: bold;
 }
+/*Experience*/
+.card-experience{
+    margin-top: 1em;
+    border-bottom: 1px solid #fff;
+    padding: 1em;
+}
+.card-experience:last-child{
+    border-bottom: none;
+}
+.experience-title{
+    border-bottom: 1px solid #fff;
+}
+.experience{
+    padding: 1em;
+}
+.title-experience{
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+}
+.empresa{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+
+}
+.enterprise{
+    padding: .5rem;
+    font-weight: bold;
+    color: #79b3d4;
+}
+.post{
+    padding: .5rem;
+}
+.description{
+    padding: .5rem;
+    width: 50%;
+    text-align: justify;
+}
+.time{
+    margin-bottom: .5em;
+}
+
+
 /*Mobile responsive*/
 @media(max-width:450px){
 #container{
