@@ -8,6 +8,7 @@
 :root{
     --main-color:#79b3d4;
     --main-text-color:#FFF;
+
     --border-color:#999;
     --bio-bg-color:#326663;
     --bio-border-color:#999;
@@ -17,6 +18,8 @@
 
 .highlight{
     color: var(--main-color);
+    transition:all 3s ;
+    
 }
 /*Containers*/
 #container{
@@ -112,6 +115,7 @@
 #name{
     font-size: 42px;
     margin-bottom: 15px;
+    transition: all 2s;
 }
 #title{
     font-size: 24px;
@@ -121,6 +125,7 @@
 .descricao{
     max-width: 75%;
     margin-bottom: 10px;
+    transition: all 5s;
 }
 .btns{
     display: flex;
@@ -218,7 +223,7 @@ font-size: 32px;
 .card-experience{
     margin-top: 1em;
     border-bottom: 1px solid #fff;
-    padding: 1em;
+  
 }
 .card-experience:last-child{
     border-bottom: none;
@@ -227,7 +232,7 @@ font-size: 32px;
     border-bottom: 1px solid #fff;
 }
 .experience{
-    padding: 1em;
+    padding:1rem 0;
 }
 .title-experience{
     font-size: 1.2em;
@@ -249,12 +254,21 @@ font-size: 32px;
     padding: .5rem;
 }
 .description{
-    padding: .5rem;
-    width: 50%;
+    padding:1rem .5rem;
+    width: 100%;
     text-align: justify;
+}
+.time_experience{
+    display: flex;
 }
 .time{
     margin-bottom: .5em;
+    padding-top: .2em;
+    margin-left: .3em;
+}
+.tech{
+    color:var(--main-color);
+    font-weight: bold;
 }
 
 
